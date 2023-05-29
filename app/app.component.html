@@ -80,6 +80,8 @@
         Resetuj
       </button>
       <button type="submit" class="przycisk" [disabled]="!formularz.form.valid">
+        <button type="button" class="przycisk" style="background-color: red;"
+(click)="formularz.resetForm()">Resetuj</button>
         Zamów
       </button>
     </label>
